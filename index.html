@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/Logo-Pesat (1).png" type="image/x-icon">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .section1-1 {
+            margin-left: 290px;
+        }
+        .section1-2 {
+            margin-left: 90px;
+        }
+        .ilustration-1 {
+            height: 400px;
+        }
+        .ilustration-3 {
+            height: 250px;
+        }
+        .section-bg-custom {
+            background-color: #e4efff;
+        }
+        .nav-tabs {
+            --bs-nav-tabs-border-color: #fff;
+            --bs-nav-tabs-link-active-border-color: #fff #fff #000;
+        }
+        .link-tab-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: .02em;
+            line-height: 1.688rem;
+            margin-bottom: 0.4rem;
+        }
+        .link-tab-desc {
+            font-size: 1rem;
+            letter-spacing: .005em;
+            line-height: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        .icon-quote {
+            font-size: 6em;
+            color: #4f96ff;
+            margin-left: -16px;
+        }
+        .quote {
+            margin-top: -20px;
+            margin-right: 100px;
+            color: #717b8a;
+            font-size: 1.75rem;
+            letter-spacing: .0.2em;
+            line-height: 2.875rem;
+        }
+        .picture-tab-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: .02em;
+            line-height: 1.688rem;
+            color: #686868;
+        }
+        .picture-tab-desc {
+            font-size: 1rem;
+            letter-spacing: .005em;
+            line-height: 1.5rem;
+            color: #686868;
+        }
+        .social-icon {
+            font-size: 30px;
+        }
+        .social-icon:hover {
+            color: #ffffff !important;
+        }
+        .menu-footer {
+            display: block;
+            text-decoration: none;
+            color: rgba(255,193,7,0,70);
+        }
+        .menu-footer:hover {
+            color: rgba(255,193,7,1);
+        }
+
+        @media only screen and (max-width: 600px) {
+            .section1-1 {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+            }
+            .section1-2 {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            .section5-1 {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .ilustration-1 {
+                height: 300px;
+            }
+            .ilustration-2 {
+                width: 240px;
+                margin-bottom: 20px;
+            }
+            .ilustration-3 {
+                height: 250px;
+                margin-bottom: 20px;
+            }
+            .quote {
+                margin-right: 0;
+                text-align: center;
+            }
+            .img-person {
+                margin-top: 30px;
+            }
+            #footer-copyright {
+                text-align: center;
+            }
+            #footer-powered {
+                text-align: center !important;
+            }
+        }
+    </style>
+</head>
+</html>
+<header class="container-fluid p-0">
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://smapluspgri.sch.id">
+                <img src="image/Logo-Pesat (1).png" alt="Logo Pesat" width="40px" class="d-inline-block align-text-top">
+                PESAT
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collap" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="container-fluid" style="margin-top: 67px;">
+    <section class="row bg-primary text-white py-5"> 
+        <div class="col-sm-6 order-md-last">
+            <div class="section1-2">
+                <img src="image/univ impian.jpg" alt="ilustration-1" class="ilustration-1">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="section1-1">
+                <h1 class="mb-4">IMPIAN</h1>
+                <p>Alasan saya untuk menjadi Psikologi adalah untuk mengatasi tantangan, membantu orang tumbuh sebagai individu, dan mempelajari hal-hal baru tentang diri Anda.</p>
+                <button class="btn btn-lg btn-warning mt-4">Ini impianku, kalo kamu apa?</button>
+            </div>
+        </div>
+    </section>
+    <section class="row section-bg-custom justify-content-center py-5">
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="image/lulus sma.webp" alt="ilustrations-3" class="ilustration-3">
+                </div>
+                <div class="col-sm-6 section-5-1">
+                    <!--lorem2-->
+                    <h5 class="text-muted">Langkah pertama.</h5>
+                    <!--lorem4-->
+                    <h1>Lulus SMA/sederajat</h1>
+                    <!--lorem35-->
+                    <p>Kalau mau melanjutkan pendidikian tinggi di bangku kuliah, tentu kamu harus memastikan telah mengantongi ijazah kelulusan di tingkat SMA/sederajat.Jika ijazah belum ada, bisa menggunakan surat keterangan lulus (SKL) terlebih dahulu. Artinya, harus ada surat resmi yang menyatakan bahwa kamu telah menuntaskan pendidikan di bangku SMA.</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-sm-6 text-center order-md-last">
+                    <img src="image/fungsitespsikologi.png" alt="ilustration-4" class="ilustration-3">
+                </div>
+                <div class="col-sm-6 section5-1">
+                    <!--lorem3-->
+                    <h5 class="text-muted">Langkah kedua.</h5>
+                    <!--lorem5-->
+                    <h1>Cek jurusan psikologi yang kamu pilih.</h1>
+                    <!--lorem30-->
+                    <p>Jurusan psikologi di setiap kampus mempunyai pendekatan keilmuan yang berbeda, bisa tergolong sebagai rumpun soshum atau rumpun saintek.meskipun begitu, sebagian besar di antaranya berbeda di rumpun sohum. Kamu perlu mempersiapkan diri untuk mengikuti seleksi masuk di rumpun saintek. Tes yang diberikan meliputi juga materi-materi terkait ilmu saintek seperti Matematika,Fisika,Biologi,dan Kimia.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="image/lulu2.png" alt="ilustration-5" class="ilustration-3">
+                </div>
+                <div class="col-sm-6 section5-1">
+                    <!--lorem3-->
+                    <h5 class="text-muted">Langkah ke tiga</h5>
+                    <!--lorem6-->
+                    <h1>Lulus seleksi penerimaan mahasiswa baru.</h1>
+                    <!--lorem35-->
+                    <p>Jika sudah mengetahui akan melanjutkan pendidikandi kampus mna, persiapkan dirimu untuk mengikuti ujian seleksi masuk yang ada. Di PTN, terdapat beberapa seleksi masuk yang bisa kamu coba, mulai dari SNMPTN, SBMPTN, Ujian Mandiri, atau jalur khusus lainnyaseperti jalur prestasi atau jalur internasional. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="row justify-content-center py-5">
+    </section>
+    <section class="row section-bg-custom justify-content-center py-5">
+        <div class="col-sm-8">
+            <h1 class="mb-5 text-center">Bersama dava.id</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Apa yang anda butuhkan?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" 
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>LAYANAN</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Konseling individu
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse"  aria-labelledby="headingTwo" 
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until 
+                            the collapse plugin adds the appropriate classes that we use to style each element. These 
+                            classes control the overall appearance, as well as the showing and hiding via CSS 
+                            transitions. You can modify any of this with custom CSS or overriding our default variables. 
+                            It's also worth noting that just about any HTML can go within the 
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            konseling keluarga
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the 
+                            collapse plugin adds the appropriate classes that we use to style each element. These 
+                            classes control the overall appearance, as well as the showing and hiding via CSS 
+                            transitions. You can modify any of this with custom CSS or overriding our default variables. 
+                            It's also worth noting that just about any HTML can go within the 
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Konseling online
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the 
+                            collapse plugin adds the appropriate classes that we use to style each element. These 
+                            classes control the overall appearance, as well as the showing and hiding via CSS 
+                            transitions. You can modify any of this with custom CSS or overriding our default variables. 
+                            It's also worth noting that just about any HTML can go within the 
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            Konseling offline
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the 
+                            collapse plugin adds the appropriate classes that we use to style each element. These 
+                            classes control the overall appearance, as well as the showing and hiding via CSS 
+                            transitions. You can modify any of this with custom CSS or overriding our default variables. 
+                            It's also worth noting that just about any HTML can go within the 
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="container-fluid py-2 bg-black text-warning">
+    <div class="row justify-content-center my-5">
+        <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-3 mb-5">
+                    <div class="mb-4 text-center">
+                        <img src="image/Logo-Pesat (1).png" alt="Logo Pesat" width="40px" class="d-inline-block">PESAT
+                    </div>
+                    <p class="mb-3">Alamat  :Depok, Cilodong, Jakarta, Yogyakarta.</p>
+                    <p class="mb-3">Untuk informasi selanjutnya bisa hubungi no di bawah ini</p>
+                    <p class="mb-1">Email: <a href="mailto:davarly@gmail.com">davarly@gmail.com</a></p>
+                    <p class="mb-3">Whatsapp: <a href="https://wa.me/+628123456789" target="_blank">08123456789</a></p>
+                    <div class="d-flex flex-row mb-2">
+                        <a href="https://www.facebook.com" class="text-warning social-icon" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com" class="text-warning social-icon mx-4" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://id.linkedin.com" class="text-warning social-icon" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <a href="https://twitter.com" class="text-warning social-icon" target="_blank">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://www.tiktok.com" class="text-warning social-icon mx-4" target="_blank">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+                        <a href="https://www.youtube.com" class="text-warning social-icon" target="_blank">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <div class="mb-3"><strong>Lokasi</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">Paingan</a>
+                        <a href="#" class="menu-footer">Maguwoharjo</a>
+                        <a href="#" class="menu-footer">Depok</a>
+                        <a href="#" class="menu-footer">Sleman</a>
+                        <a href="#" class="menu-footer">Yogyakarta</a>
+                    </div>
+                    <div class="mb-3"><strong>Jam Kantor</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">Senin-Jumat</a>
+                        <a href="#" class="menu-footer">Pukul 08.00-15.00</a>
+                    </div>
+                    <div class="mb-3"><strong>Lainnya</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">Pendaftaran</a>
+                        <a href="#" class="menu-footer">Cara mendaftar</a>
+                    </div>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <div class="mb-3"><strong>Tentang kami</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">Bantuan</a>
+                        <a href="#" class="menu-footer">Hubungi kami</a>
+                        <a href="#" class="menu-footer">Daftar psikolog</a>
+                        <a href="#" class="menu-footer">Daftar volunteer</a>
+                    </div>
+                    <div class="mb-3"><strong>Lainnya</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">Artikel kesehatan mental</a>
+                        <a href="#" class="menu-footer">Tes psikologi Gratis</a>
+                        <a href="#" class="menu-footer">Tes kesehatan mental online</a>
+                    </div>
+                    <div class="mb-3"><strong>Tips</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">7 tips menghadapi kumpul keluarga</a>
+                        <a href="#" class="menu-footer">7 tips agar tetap bahagia</a>
+                    </div>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <div class="mb-3"><strong>Tentng kami</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">selayang pandang</a>
+                        <a href="#" class="menu-footer">sejarah</a>
+                        <a href="#" class="menu-footer">manajemen</a>
+                    </div>
+                    <div class="mb-3"><strong>Tentang kami</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">daftar informasi publik</a>
+                        <a href="#" class="menu-footer">permohonan informasi publik</a>
+                        <a href="#" class="menu-footer">daftar informasi setiap saat</a>
+                    </div>
+                    <div class="mb-3"><strong>Fasilitas</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">rumah sakit</a>
+                        <a href="#" class="menu-footer">ruang konsultasi</a>
+                    </div>
+                </div>
+                <div class="col-sm-2 text-center">
+                    <div class="mb-3"><strong>Quick links</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">pencerahan</a>
+                        <a href="#" class="menu-footer">opini</a>
+                    </div>
+                    <div class="mb-3"><strong>Quick links</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">beranda</a>
+                        <a href="#" class="menu-footer">topik konseling</a>
+                        <a href="#" class="menu-footer">layanan</a>
+                        <a href="#" class="menu-footer">psikolog kami</a>
+                        <a href="#" class="menu-footer">tentang kami</a>
+                    </div>
+                    <div class="mb-3"><strong>Resource</strong></div>
+                    <div class="mb-3">
+                        <a href="#" class="menu-footer">blog</a>
+                        <a href="#" class="menu-footer">dinamika</a>
+                        <a href="#" class="menu-footer">E-learning</a>
+                        <a href="#" class="menu-footer">Ejournal</a>
+                        <a href="#" class="menu-footer">Staff site</a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-width: 5px;">
+            <div class="row justify-content-between">
+                <div class="col-sm-6" id="footer-copyright">Copyright &copy; 2023 Pesat</div>
+                <div class="col-sm-6 text-end" id="footer-powered">Powered By Studentday Web Design</div>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+<script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+</body>
+</html>
